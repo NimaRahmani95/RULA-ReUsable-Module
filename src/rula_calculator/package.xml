@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rula_calculator</name>
+  <version>1.0.0</version>
+  <description>
+    3D RULA (Rapid Upper Limb Assessment) ergonomic scoring and UR5e robot control.
+    Computes full RULA scores from 3D skeletal keypoints received from point_2D_extractor,
+    and drives a UR5e collaborative robot via RTDE to optimise workpiece height for the operator.
+    Includes a gradient-descent optimiser with EMA smoothing, sliding-window stability detection,
+    plateau detection, and operator gesture control.
+  </description>
+  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>body_data</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

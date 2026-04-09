@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>point_2D_extractor</name>
+  <version>1.0.0</version>
+  <description>
+    Multi-camera 3D skeletal pose extraction using AlphaPose and Intel RealSense depth cameras.
+    Runs AlphaPose inference on up to three RealSense streams (front, right, left), deprojects
+    2D keypoints to 3D metric coordinates using depth maps, and detects operator hand gestures
+    (THUMBS_UP / THUMBS_DOWN) via a dual-hand voting buffer.
+  </description>
+  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>body_data</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-torch</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

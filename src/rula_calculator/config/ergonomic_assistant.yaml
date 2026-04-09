@@ -1,0 +1,16 @@
+# Ergonomic Assistant — ROS 2 parameter file
+# Load with: ros2 run rula_calculator pcb_ergonomic_assistant \
+#              --ros-args --params-file <path>/ergonomic_assistant.yaml
+
+pcb_ergonomic_assistant:
+  ros__parameters:
+
+    # ── Robot connection ────────────────────────────────────────────────────
+    robot_ip: "192.168.0.100"        # UR5e IP address (change to match your network)
+
+    # ── Safety limits ───────────────────────────────────────────────────────
+    z_min_limit: 0.35                # metres — lowest allowed TCP Z-height
+    z_max_limit: 0.65                # metres — highest allowed TCP Z-height
+
+    # ── Timing ──────────────────────────────────────────────────────────────
+    movement_cooldown_sec: 1.5       # minimum seconds between consecutive optimizer moves

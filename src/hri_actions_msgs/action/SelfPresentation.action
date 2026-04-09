@@ -1,0 +1,8 @@
+# Goal definition
+---
+# Result definition
+bool success
+---
+# Feedback definition
+int32 current_phrase
+int32 total_phrases

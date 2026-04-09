@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rula_gui</name>
+  <version>1.0.0</version>
+  <description>
+    Real-time ergonomic monitoring dashboard for ROS 2.
+    Displays live annotated camera feeds, colour-coded RULA score bars, phase indicator pill,
+    a scrollable system log, and a matplotlib trend diagram of upper/lower arm scores over time.
+    Plays an audio chime when the RULA optimizer converges. Accepts operator hand-gesture
+    commands (Thumbs Up / Down) in USER_ADJUSTMENT phase.
+  </description>
+  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>body_data</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-pil</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

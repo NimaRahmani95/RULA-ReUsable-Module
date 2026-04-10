@@ -53,8 +53,8 @@ The system runs a three-phase state machine:
 | Robot | Universal Robots UR5e (RTDE interface) |
 | Depth cameras | 3× Intel RealSense D415 / D435 / D435i |
 | GPU | NVIDIA GPU with CUDA (for AlphaPose inference) |
-| OS | Ubuntu 22.04 |
-| ROS | ROS 2 Humble Hawksbill |
+| OS | Ubuntu 24.04 |
+| ROS | ROS 2 Jazzy |
 
 Camera placement:
 - **Front** — facing the operator, centred on the workstation
@@ -110,7 +110,7 @@ pip install tqdm
 ### 5. cv_bridge (ROS 2)
 
 ```bash
-sudo apt install ros-humble-cv-bridge
+sudo apt install ros-jazzy-cv-bridge
 ```
 
 ---

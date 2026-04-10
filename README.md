@@ -1,6 +1,6 @@
 # ROS 2 RULA Ergonomic Monitor
 
-A real-time ergonomic monitoring and robot-assisted workstation adjustment stack for ROS 2 (Humble). The system uses [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) with Intel RealSense depth cameras to estimate 3D skeletal pose, computes RULA (Rapid Upper Limb Assessment) scores, and drives a UR5e collaborative robot to continuously optimise the PCB workpiece height for the operator.
+A real-time ergonomic monitoring and robot-assisted workstation adjustment stack for ROS 2 (Jazzy). The system uses [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) with Intel RealSense depth cameras to estimate 3D skeletal pose, computes RULA (Rapid Upper Limb Assessment) scores, and drives a UR5e collaborative robot to continuously optimise the PCB workpiece height for the operator.
 
 ---
 
@@ -65,12 +65,12 @@ Camera placement:
 
 ## Software Prerequisites
 
-### 1. ROS 2 Humble
+### 1. ROS 2 Jazzy
 
 ```bash
 # Follow the official installation guide:
-# https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
-sudo apt install ros-humble-desktop python3-colcon-common-extensions
+# https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debians.html
+sudo apt install ros-jazzy-desktop python3-colcon-common-extensions
 ```
 
 ### 2. Intel RealSense SDK
@@ -122,7 +122,7 @@ sudo apt install ros-humble-cv-bridge
 git clone https://github.com/Industry40Lab/RULA-ReUsable-Module.git ~/RULA-ReUsable-Module
 
 # 2. Source ROS 2
-source /opt/ros/humble/setup.bash
+source /opt/ros/jazzy/setup.bash
 
 # 3. Build
 cd ~/RULA-ReUsable-Module
@@ -346,7 +346,7 @@ If you use this work in academic research, please cite:
 ```bibtex
 @software{rula_ergo_ros2,
   title  = {ROS 2 RULA Ergonomic Monitor},
-  year   = {2024},
-  url    = {https://github.com/<your-username>/rula-ergo-ros2}
+  year   = {2026},
+  url    = {https://github.com/NimaRahmani95/RULA-ReUsable-Module}
 }
 ```

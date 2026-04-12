@@ -326,6 +326,10 @@ EMA smoothing (`alpha = 0.25`) reduces sensor noise before computing the gradien
 
 ---
 
+## Acknowledgement
+
+This work was carried out within the framework of the project ARISE, funded by the European Union under Grant Agreement No. 101135784.
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.

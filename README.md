@@ -1,5 +1,7 @@
 # ROS 2 RULA Ergonomic Monitor
 
+![System GUI](docs/images/gui_screenshot.png)
+
 A real-time ergonomic monitoring and robot-assisted workstation adjustment stack for ROS 2 (Jazzy). The system uses [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose) with Intel RealSense depth cameras to estimate 3D skeletal pose, computes RULA (Rapid Upper Limb Assessment) scores, and drives a UR5e collaborative robot to continuously optimise the PCB workpiece height for the operator.
 
 ---

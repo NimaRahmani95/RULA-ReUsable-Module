@@ -10,7 +10,7 @@
     Includes a gradient-descent optimiser with EMA smoothing, sliding-window stability detection,
     plateau detection, and operator gesture control.
   </description>
-  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <maintainer email="rahmani.nima1995@gmail.com">Nima Rahmani</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>

@@ -9,7 +9,7 @@
     2D keypoints to 3D metric coordinates using depth maps, and detects operator hand gestures
     (THUMBS_UP / THUMBS_DOWN) via a dual-hand voting buffer.
   </description>
-  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <maintainer email="rahmani.nima1995@gmail.com">Nima Rahmani</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>

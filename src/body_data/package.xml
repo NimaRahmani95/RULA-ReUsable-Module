@@ -8,7 +8,7 @@
     Provides BodyMsg (full RULA assessment output) and MultiCameraPoints
     (3D keypoints from three RealSense depth cameras).
   </description>
-  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <maintainer email="rahmani.nima1995@gmail.com">Nima Rahmani</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

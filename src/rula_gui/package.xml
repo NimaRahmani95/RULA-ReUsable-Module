@@ -10,7 +10,7 @@
     Plays an audio chime when the RULA optimizer converges. Accepts operator hand-gesture
     commands (Thumbs Up / Down) in USER_ADJUSTMENT phase.
   </description>
-  <maintainer email="sshayan1997@gmail.com">shayan</maintainer>
+  <maintainer email="rahmani.nima1995@gmail.com">Nima Rahmani</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>

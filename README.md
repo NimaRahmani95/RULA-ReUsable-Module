@@ -333,7 +333,11 @@ EMA smoothing (`alpha = 0.25`) reduces sensor noise before computing the gradien
 
 ## Acknowledgement
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg" alt="EU Flag" width="100" align="left" style="margin-right: 15px; margin-bottom: 10px;"/>
+
 This work was carried out within the framework of the project **ARISE**, funded by the **European Union** under Grant Agreement **No. 101135784**.
+
+<br clear="left"/>
 
 ---
 ## License
